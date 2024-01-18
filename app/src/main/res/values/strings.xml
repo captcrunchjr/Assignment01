@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment01</string>
+    <string name="title">Discount Calculator</string>
+    <string name="saleField">Sale %</string>
+    <string name="itemPriceField">Item Price:</string>
+    <string name="itemPriceHint">Enter List Price</string>
+    <string name="radioButton10">10%</string>
+    <string name="radioButton15">15%</string>
+    <string name="radioButton18">18%</string>
+    <string name="radioButtonCustom">Custom</string>
+    <string name="customSliderLabel">Custom %:</string>
+    <string name="seekBarPercent">20%</string>
+</resources>
