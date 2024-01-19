@@ -9,7 +9,7 @@
     <string name="radioButton18">18%</string>
     <string name="radioButtonCustom">Custom</string>
     <string name="customSliderLabel">Custom %:</string>
-    <string name="seekBarPercent">20%</string>
+    <string name="seekBarPercent">25%</string>
     <string name="discountAmount">$0.00</string>
     <string name="discountLabel">Discount:</string>
     <string name="finalPriceLabel">Final Price:</string>

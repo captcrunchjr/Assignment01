@@ -54,6 +54,7 @@
         android:hint="@string/itemPriceHint"
         android:inputType="number"
         android:textSize="14sp"
+        android:digits="0123456789."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toEndOf="@+id/itemPriceField"
@@ -114,7 +115,7 @@
         android:layout_height="43dp"
         android:layout_marginLeft="12dp"
         android:layout_marginTop="12dp"
-        android:progress="40"
+        android:progress="50"
         android:progressTint="@color/design_default_color_primary"
         app:layout_constraintStart_toEndOf="@+id/textViewCustom"
         app:layout_constraintTop_toBottomOf="@+id/radioGroupSale" />
@@ -168,7 +169,7 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/finalPrice"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -181,24 +182,26 @@
 
     <Button
         android:id="@+id/resetButton"
-        android:layout_width="160dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/resetButtonLabel"
+        app:layout_constraintEnd_toStartOf="@+id/calcButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/finalPrice" />
 
     <Button
         android:id="@+id/calcButton"
-        android:layout_width="160dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="@string/calcButtonLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/resetButton"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/finalPrice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
